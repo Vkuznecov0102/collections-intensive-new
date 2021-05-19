@@ -7,7 +7,7 @@ public class WeakHashMapPractice {
 
     public static void main(String[] args) {
         Map<Integer, String> map = new WeakHashMap<>();
-        map.put(new Integer(30), "Vitaliy");
+        map.put(30, "Vitaliy");
 
         Thread thread = new Thread(
                 () -> {
